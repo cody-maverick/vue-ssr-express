@@ -1,0 +1,46 @@
+//@import "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css";
+
+@import url('~animate.css/animate.min.css');
+
+html {
+
+}
+
+body {
+  margin: 0;
+  padding: 0
+}
+
+#app {
+  height: 100vh;
+  width: 100vw;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0
+}
+
+.shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 133, 191, 0.71);
+}
+
+h3 {
+  margin: 0;
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .4s;
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */
+{
+  opacity: 0;
+}
+

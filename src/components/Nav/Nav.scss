@@ -1,0 +1,33 @@
+.nav {
+  height: 100%;
+  background: #0051ce;
+  left: -100%;
+  min-width: 150px;
+  min-height: 100vh;
+
+  &-wrapper {
+    position: absolute;
+    transform: translateX(-100%);
+    transition: 0.4s ease-in-out;
+    z-index: 2;
+
+    &--active {
+      transform: translateX(0%)
+    }
+  }
+
+  &-button {
+    background: #00a7bf;
+    color: #fff;
+    position: absolute;
+    left: 100%;
+    border: none;
+    width: 50px;
+    height: 50px;
+    transform: translateX(0)
+  }
+}
+
+h3 {
+  margin: 0
+}
